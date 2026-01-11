@@ -13,8 +13,7 @@
 - **Privasi Pengguna**: Sesuai standar GDPR, data yang digunakan bersifat publik (rekaman jalan). [cite_start]Namun, jika ada plat nomor atau wajah yang terlihat, akan dilakukan anonimisasi[cite: 33, 53, 55].
 - [cite_start]**Etika AI**: Kami mewaspadai bias model yang mungkin lebih akurat mendeteksi mobil penumpang (car) dibanding kendaraan berat (bus/truck) karena perbedaan jumlah dataset[cite: 34, 57].
 
-## Hasil Analisis (Step 4 & 5)
-*(Isi bagian ini setelah training selesai)*
+## Hasil Analisis
 - [cite_start]**Metrik**: Precision, Recall, dan mAP[cite: 73].
 - [cite_start]**Analisis**: [Isi perbandingan hasil model sebelum vs sesudah training di sini][cite: 84].
 
