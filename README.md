@@ -25,7 +25,7 @@
 <details>
   <summary>Click to see Technical Deep Dive (F1-Curve & Confusion Matrix)</summary>
   
-  ![F1 Curve](assets/f1_curve.png)
+  ![BoxF1 Curve](assets/Boxf1_curve.png)
   ![Confusion Matrix](assets/confusion_matrix.png)
 </details>
 
@@ -38,7 +38,7 @@
 
 ## Project Structure
 ```text
-.
+
 ├── data_config/    # Konfigurasi dataset (YAML)
 ├── src/            # Core scripts (training, prediction, counting)
 ├── weights/        # Trained model weights (best.pt)
@@ -46,20 +46,10 @@
 ├── notebooks/      # Eksperimen di Jupyter/Colab
 └── requirements.txt
 
-### Cara Menjalankan (Installation & Usage)
-
-```markdown
-## Quick Start
-1. **Clone & Install:**
-   ```bash
-   git clone [https://github.com/febriansyahsyafaat/CCTV-Object-Detection.git](https://github.com/febriansyahsyafaat/CCTV-Object-Detection.git)
-   pip install -r requirements.txt 
-   ### 3. Detail Hasil Analisis 
-
-* **Metrik:** mAP@50 mencapai tingkat akurasi yang stabil untuk kendaraan kategori 'Car' dan 'Truck'.
-* **Analisis:** Model menunjukkan performa tinggi pada kondisi pencahayaan siang hari, namun memerlukan augmentasi data lebih lanjut untuk kondisi cuaca buruk (hujan/malam).
+- Metrik: mAP@50 mencapai tingkat akurasi yang stabil untuk kendaraan kategori 'Car' dan 'Truck'.
+- Analisis: Model menunjukkan performa tinggi pada kondisi pencahayaan siang hari, namun memerlukan augmentasi data lebih lanjut untuk kondisi cuaca buruk (hujan/malam).
 
 ## Future Roadmap
-- [ ] Implementasi **Real-time Tracking** menggunakan ByteTrack.
-- [ ] Penambahan fitur **Speed Estimation** kendaraan.
-- [ ] Deployment API menggunakan **FastAPI & Docker**.
+- Implementasi Real-time Tracking menggunakan ByteTrack.
+- Penambahan fitur Speed Estimation kendaraan.
+- Deployment API menggunakan FastAPI & Docker.
