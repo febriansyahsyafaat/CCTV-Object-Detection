@@ -20,14 +20,21 @@
 
 ## Rekomendasi Action
 - [cite_start]**Improvement**: [Saran untuk menaikkan akurasi model, misal: augmentasi data][cite: 85].
-## 📊 Model Performance & Results
+## Model Performance & Results
 
-### Detection Results
-![Sample Detection](assets/train_img_0.jpg)
+<details>
+  <summary>Click to see Technical Deep Dive (F1-Curve & Confusion Matrix)</summary>
+  
+  ![F1 Curve](assets/f1_curve.png)
+  ![Confusion Matrix](assets/confusion_matrix.png)
+</details>
 
-### Training Metrics
-![Training Metrics](assets/results.png)
-![Confusion Matrix](assets/confusion_matrix.png)
+### Detection Samples
+**Inference on Training Data:**
+![Sample Train](assets/sample_detection.jpg)
+
+**Inference on Validation Data (Unseen):**
+![Sample Val](assets/val_pred.jpg)
 
 ## Project Structure
 ```text
