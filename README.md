@@ -23,7 +23,7 @@
 ## Model Performance & Results
 
 <details>
-  <summary>Click to see Technical Deep Dive (F1-Curve & Confusion Matrix)</summary>
+  <summary>Click to see Technical Deep Dive (BoxF1-Curve & Confusion Matrix)</summary>
   
   ![BoxF1 Curve](assets/Boxf1_curve.png)
   ![Confusion Matrix](assets/confusion_matrix.png)
