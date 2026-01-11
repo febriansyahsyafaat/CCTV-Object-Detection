@@ -34,6 +34,8 @@ Berdasarkan hasil analisis, berikut adalah langkah-langkah untuk meningkatkan pe
 
 ### Detection Samples
 
+![Training Metrics](assets/results.png)
+
 **Inference on Training Data:**
 ![Sample Train](assets/sample_detection.jpg)
 
