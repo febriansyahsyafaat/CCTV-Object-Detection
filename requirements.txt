@@ -1,0 +1,6 @@
+ultralytics
+label-studio
+opencv-python
+matplotlib
+seaborn
+pandas
