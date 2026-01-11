@@ -19,7 +19,11 @@
 - [cite_start]**Analisis**: [Isi perbandingan hasil model sebelum vs sesudah training di sini][cite: 84].
 
 ## Rekomendasi Action
-- [cite_start]**Improvement**: [Saran untuk menaikkan akurasi model, misal: augmentasi data][cite: 85].
+Berdasarkan hasil analisis, berikut adalah langkah-langkah untuk meningkatkan performa sistem di fase berikutnya:
+- **Augmentasi Data**: Menambahkan teknik **Mosaic*** dan **mixup** untuk memperkuat deteksi objek pada kondisi lalu lintas padat.
+- **Fine-tuning Hyperparameters**: Melakukan eksperimen pada **learning rate** dan **optimizer** untuk menekan **box_loss** lebih jauh.
+- **Anonimisasi Otomatis**: Mengintegrasikan modul blurring pada plat nomor untuk memperkuat aspek privasi (GDPR/UU PDP).
+
 ## Model Performance & Results
 
 <details>
