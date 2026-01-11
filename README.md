@@ -25,11 +25,12 @@
 <details>
   <summary>Click to see Technical Deep Dive (BoxF1-Curve & Confusion Matrix)</summary>
   
-  ![BoxF1 Curve](assets/Boxf1_curve.png)
+  ![BoxF1 Curve](assets/BoxF1_curve.png)
   ![Confusion Matrix](assets/confusion_matrix.png)
 </details>
 
 ### Detection Samples
+
 **Inference on Training Data:**
 ![Sample Train](assets/sample_detection.jpg)
 
